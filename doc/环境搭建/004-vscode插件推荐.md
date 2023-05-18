@@ -8,7 +8,10 @@
 
     第二个插件，则是Github使用的Markdown渲染样式，不是特别华丽，很朴素，很简洁的样式，因为很多人用Markdown都是为了使用Github Pages，所以这个样式特别受欢迎。使用这个样式，在本地就能预览Markdown文件最终在Github Pages中显示的效果。
 
-3. ### Paste Image
+3. ### markdown preview enhanced
+
+
+4. ### Paste Image
 
     安装好这个插件后，截好图后，默认按下Ctrl+Alt+V就能把截图添加到md文档里面了。
     图片会默认保存在当前编辑文档的所在目录，当然你也可以自定义路径，如下
@@ -33,8 +36,22 @@
     ```
     [markdown-paste-image](https://github.com/telesoho/vscode-markdown-paste-image)
     
-4. 测试
+5. Auto Close Tag
 
-5. 
+    自动闭合HTML/XML标签，没什么好说的，墙裂推荐！
 
-6. 
+
+6. Auto Rename Tag
+
+    自动完成另一侧标签的同步修改，没什么好说的，墙裂推荐！
+
+
+7. CSS Peek
+
+    使用 Ctrl + 鼠标左键 快速查看CSS定义。
+8. 
+9.  
+10. 
+
+
+8. 
