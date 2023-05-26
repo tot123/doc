@@ -27,4 +27,5 @@ octotree就很好的解决了这个问题，它在GitHub页面的左侧上方添
 github-file-icon插件提供了一套非常酷炫的文件图表，让文件看起来更加直观形象。
 
 
-14. 
+14. uBlock Origin 广告拦截插件
+https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm/related?hl=zh-CN
