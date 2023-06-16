@@ -23,7 +23,12 @@ docker-compose --version
 
 现在，您已经成功使用yum在基于RPM包管理的Linux发行版上安装了Docker Compose。您可以开始使用Docker Compose来管理Docker化的应用程序和服务。
 
+## docker快速安装zookeeper
+```shell
+docker run -d --name zookeeper -p 2181:2181 -e TZ="Asia/Shanghai" --restart always zookeeper:3.7
+docker run -d --name zookeeper -p 8181:2181 -e TZ="Asia/Shanghai"   --restart always zookeeper:3.7
 
+```
 
 ### 搭建zookeeper
 
