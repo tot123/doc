@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: your-application-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: your-application
+  template:
+    metadata:
+      labels:
+        app: your-application
+    spec:
+      containers:
+        - name: your-application
+          image: registry.example.com/your-application:latest
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - name: your-volume
+              mountPath: /app/data
+      volumes:
+        - name: your-volume
+          persistentVolumeClaim:
+            claimName: your-pvc
